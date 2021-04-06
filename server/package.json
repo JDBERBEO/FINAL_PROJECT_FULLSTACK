@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "husky": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lint-staged": "^10.5.4",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-fix": "eslint --fix --ext .js,.jsx .",
+    "lint": "eslint --ext .js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
